@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Front End Hub</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="left-side">
+                <img src="./img/p logo.png" alt="Quiz logo" class="tilt">
+            </div>
+            <div class="right-side">
+                <h1>Welcome to Online Quiz</h1>
+                <h2>Keypoints to Consider</h2>
+                <ul>
+                    <li>10 Questions (60 Seconds Each)</li>
+                    <li>Duration: 10 Minutes</li>
+                    <li>Random Questions</li>
+                    <li>Get Result At Any Time</li>
+                </ul>
+                <div class="home-div">
+                    <a class="buttons" href="./questions.html">Let's Start Quiz</a>
+                    <div class="home-logo">
+                    <a href="./index.html"> <i class="bi bi-house-fill"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/tilt.min.js"></script>
+    
+    <!--to apply titl functionality to the icon on home page-->
+    <script>
+        $(".tilt").tilt({
+            scale: 1.2,
+        });
+    </script>
+</html>
